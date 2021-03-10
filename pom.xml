@@ -14,10 +14,7 @@
   <url>http://www.example.com</url>
 
   <modules>
-    <module>eureka-server</module>
-    <module>service-a</module>
-    <module>service-b</module>
-    <module>service-c</module>
+    <module>spring-cloud-eureka-demo</module>
   </modules>
 
   <properties>
