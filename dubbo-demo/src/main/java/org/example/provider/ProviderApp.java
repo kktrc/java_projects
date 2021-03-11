@@ -26,7 +26,7 @@ import org.example.api.DemoService;
 
 import java.util.concurrent.CountDownLatch;
 
-public class Application {
+public class ProviderApp {
     public static void main(String[] args) throws Exception {
         if (isClassic(args)) {
             startWithExport();
