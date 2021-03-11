@@ -5,26 +5,25 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>java-projects</artifactId>
+  <artifactId>spring-cloud-dubbo-demo</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>java-projects</name>
+  <name>spring-cloud-dubbo-demo</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-
-  <modules>
-    <module>spring-cloud-eureka-demo</module>
-    <module>jedis-demo</module>
-    <module>spring-cloud-dubbo-demo</module>
-    <module>dubbo-demo</module>
-  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+
+  <modules>
+    <module>spring-cloud-dubbo-consumer</module>
+    <module>spring-cloud-dubbo-provider</module>
+    <module>spring-cloud-dubbo-provider-api</module>
+  </modules>
 
   <dependencies>
     <dependency>
